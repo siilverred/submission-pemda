@@ -1,0 +1,15 @@
+## Cara Menjalankan ETL Pipeline
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Jalankan pipeline:
+   python main.py
+
+## Cara Menjalankan Unit Test
+pytest tests/
+
+## Cara Menjalankan Test Coverage
+pytest tests/ --cov=utils --cov-report=term-missing
+
+## URL Google Sheets
+https://docs.google.com/spreadsheets/d/19_eDQI2k5Aw0Ji5ammIlADVCYCuIpgSfVL9vtbYrlpY
